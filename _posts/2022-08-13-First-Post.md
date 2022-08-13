@@ -1,19 +1,28 @@
 ---
 
-
-
+layout: "post"
 
 ---
 
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
 
-# Here is the heading to the post
-I wonder if we can do math in here?
+## Does code work?
 
-$$
-E = m c^2
-$$
+{% highlight rust %}
+const y: u32 = 5;
 
-$$
-\frac{\Delta y}{\Delta x}
-$$
+fn main() {
+    
+  let x:Option<u32> = match y {
+    1 => Some(1),
+    2 => Some(1),
+    3 => Some(123),
+    _ => None
+
+}
+
+
+{% endhighlight %}
 
