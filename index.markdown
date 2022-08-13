@@ -6,6 +6,3 @@ layout: home
 ---
 
 
-# What's the deal with that
-
-
